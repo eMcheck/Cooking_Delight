@@ -4,64 +4,56 @@
     text-align: center;
     max-width: 1440px;
     margin: 40px auto;
-}
 
-.header__logo-image {
-    width: 110px;
-    height: 30px;
-    transition: .3s;
-}
+    &__logo-image {
+        width: 110px;
+        height: 30px;
+        transition: 0.3s;
 
-.header__logo-image:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
+        &:hover {
+            cursor: pointer;
+            transform: scale($hover-scale);
+        }
+    }
 
-.header__nav ul {
-    display: flex;
-    gap: 60px;
-    list-style: none;
-}
+    &__nav {
+        ul {
+            display: flex;
+            gap: $gap-large;
+            list-style: none;
+        }
 
+        &-item {
+            transition: 0.3s;
 
-.header__menu-item a {
-    text-decoration: none;
-    color: inherit;
-}
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
 
-.header__menu-item {
-    transition: .3s;
-}
+            &:hover {
+                color: $primary-color;
+                cursor: pointer;
+            }
+        }
+    }
 
-.header__menu-item:hover {
+    &__social-list {
+        display: flex;
+        gap: $gap-medium;
+        list-style: none;
+    }
 
-    color: #FF7426;
-    cursor: pointer;
-}
+    &__social-item {
+        transition: color 0.3s ease, transform 0.3s ease;
+        cursor: pointer;
+        color: $default-color;
 
-.header__social-list {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-}
-
-.header__social-item {
-    transition: color 0.3s ease, transform 0.3s ease;
-    cursor: pointer;
-    color: black;
-}
-
-.header__social-item--facebook:hover {
-    color: #FF7426;
-    transform: scale(1.1);
-}
-
-.header__social-item--twitter:hover {
-    color: #FF7426;
-    transform: scale(1.1);
-}
-
-.header__social-item--instagram:hover {
-    color: #FF7426;
-    transform: scale(1.1);
+        &--facebook:hover,
+        &--twitter:hover,
+        &--instagram:hover {
+            color: $primary-color;
+            transform: scale($hover-scale);
+        }
+    }
 }

@@ -1,4 +1,4 @@
-@import './variables';
-@import '../index.scss';
-@import '../App.scss';
-@import '../components/Header/Header.scss'
+@import 'variables';
+@import 'mixins';
+@import '../components/Header/Header';
+@import '../components/Footer/Footer';
