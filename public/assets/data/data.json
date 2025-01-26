@@ -1,0 +1,160 @@
+{
+    "siteInfo": {
+        "title": "Cooking Delight",
+        "description": "Discover delicious recipes, tips, and tricks to make your cooking experience unforgettable.",
+        "logo": "/assets/icons/logo.svg",
+        "menu": [
+            {
+                "name": "Home",
+                "link": "/"
+            },
+            {
+                "name": "Recipes",
+                "link": "/recipes"
+            },
+            {
+                "name": "Blog",
+                "link": "/blog"
+            },
+            {
+                "name": "Contact",
+                "link": "/contact"
+            },
+            {
+                "name": "About Us",
+                "link": "/about"
+            }
+        ]
+    },
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Spaghetti Carbonara",
+            "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+            "image": "/assets/images/spaghetti-carbonara.jpg",
+            "prepTime": "10 minutes",
+            "cookTime": "20 minutes",
+            "servings": 4,
+            "difficulty": "Easy",
+            "ingredients": [
+                {
+                    "name": "Spaghetti",
+                    "quantity": "400",
+                    "unit": "grams"
+                },
+                {
+                    "name": "Pancetta",
+                    "quantity": "150",
+                    "unit": "grams"
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": "3",
+                    "unit": "pieces"
+                },
+                {
+                    "name": "Parmesan Cheese",
+                    "quantity": "50",
+                    "unit": "grams"
+                },
+                {
+                    "name": "Black Pepper",
+                    "quantity": "1",
+                    "unit": "teaspoon"
+                }
+            ],
+            "steps": [
+                "Boil water and cook spaghetti until al dente.",
+                "Fry pancetta until crispy.",
+                "Beat eggs and mix with grated Parmesan cheese.",
+                "Combine spaghetti, pancetta, and egg mixture.",
+                "Serve with extra Parmesan and black pepper."
+            ],
+            "tags": [
+                "Italian",
+                "Pasta",
+                "Quick",
+                "Dinner"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vegan Buddha Bowl",
+            "description": "A nourishing bowl of grains, veggies, and plant-based protein.",
+            "image": "/assets/images/buddha-bowl.jpg",
+            "prepTime": "15 minutes",
+            "cookTime": "20 minutes",
+            "servings": 2,
+            "difficulty": "Medium",
+            "ingredients": [
+                {
+                    "name": "Quinoa",
+                    "quantity": "100",
+                    "unit": "grams"
+                },
+                {
+                    "name": "Chickpeas",
+                    "quantity": "200",
+                    "unit": "grams"
+                },
+                {
+                    "name": "Avocado",
+                    "quantity": "1",
+                    "unit": "piece"
+                },
+                {
+                    "name": "Carrots",
+                    "quantity": "2",
+                    "unit": "pieces"
+                },
+                {
+                    "name": "Spinach",
+                    "quantity": "50",
+                    "unit": "grams"
+                }
+            ],
+            "steps": [
+                "Cook quinoa according to package instructions.",
+                "Roast chickpeas with olive oil and spices.",
+                "Slice avocado and carrots.",
+                "Assemble quinoa, chickpeas, avocado, carrots, and spinach in a bowl.",
+                "Drizzle with dressing of choice and serve."
+            ],
+            "tags": [
+                "Vegan",
+                "Healthy",
+                "Lunch"
+            ]
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "title": "10 Tips for Perfect Baking",
+            "description": "Learn the secrets to consistently great results in the kitchen.",
+            "image": "/assets/images/baking-tips.jpg",
+            "date": "2025-01-20",
+            "author": "Jane Doe",
+            "content": "Baking is an art and science..."
+        },
+        {
+            "id": 2,
+            "title": "The Best Kitchen Gadgets of 2025",
+            "description": "A roundup of the most innovative tools for home cooks.",
+            "image": "/assets/images/kitchen-gadgets.jpg",
+            "date": "2025-01-15",
+            "author": "John Smith",
+            "content": "Explore the latest trends in kitchen gadgets..."
+        }
+    ],
+    "contact": {
+        "email": "info@cookingdelight.com",
+        "phone": "+1 123 456 7890",
+        "address": "123 Culinary Street, Flavor Town, USA",
+        "social": {
+            "facebook": "https://facebook.com/cookingdelight",
+            "instagram": "https://instagram.com/cookingdelight",
+            "twitter": "https://twitter.com/cookingdelight"
+        }
+    }
+}
